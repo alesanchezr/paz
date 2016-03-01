@@ -1,0 +1,139 @@
+
+@font-face {
+    font-family: futura;
+    src: url(../fonts/futura.ttf);
+}
+
+@font-face {
+    font-family: neuzeir;
+    src: url(../fonts/neuzeir.ttf);
+   
+}
+
+
+
+body {
+  padding: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1,h2,h3,h4{
+	font-family: futura;
+}
+
+/* MENU  */
+
+.col-md-6{
+	
+}
+.logo{
+
+   
+}
+
+.icon-bar{
+	color: black !important;
+}
+
+.logo img{
+	           height: 81px;
+    margin-left: 10px;
+
+}
+.menu{
+	background-color: #F5F5F5;
+	font-family: neuzeir;
+	font-weight: 100;
+	font-size: 10px;
+	 letter-spacing: 1px;
+		padding: 0px;
+	 padding-left: 0px !important;
+    margin-left: 0px !important;
+}
+
+.menu a{
+	color: #6D6C6C;
+}
+
+.m1{
+	background-color: #EEEEF0;
+}
+
+.m1 :hover, .m1 :active, .m1:focus{
+	background-color: #E0E0E6 !important;
+}
+.m2 :hover, .m2 :active, .m2:focus{
+	background-color: #E0E0E6 !important;
+}
+
+.navbar-nav>li>a{
+	    padding: 30px;
+    	letter-spacing: .5px;
+}
+
+ .menu2 .col-md-4{
+	    padding: 20px;
+    	letter-spacing: .5px;
+}
+.menu2{
+	padding: 0px;
+	margin:0px;
+}
+.menu .col-md-4{
+	opacity: .9;
+}
+.menu2 img{
+	height: 40px;
+}
+	.menu2 .col-md-4{
+    min-height: 80px;
+}
+.social_mobile{
+	display: none;
+}
+.twitter{
+	background-color: #29A7DE
+}
+.face{
+	background-color: #36609D;
+}
+.contact{
+	background-color: #EEEEF0;
+}
+
+
+
+/*MEDIA */
+
+
+@media(max-width:1318px)  {
+
+	.menu, .menu2{
+		width: 100%;
+	}
+	
+
+}
+@media (max-width: 992px){
+.contact,.twitter, .face {
+    width: 33.33333333% !important;
+}
+
+}
+
+
+@media(max-width:769px)  {
+
+	.social_mobile{
+		display: initial;
+	}
+	.no-mobile{
+		display: none;
+	}
+	
+
+}
