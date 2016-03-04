@@ -1,0 +1,57 @@
+doctype html
+html
+  head
+    title= title
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous")
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/animate.css')
+    link(rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css")   
+  body
+    .container-menu
+      .col-md-6.menu.animate.fadeInDown
+        nav
+              .navbar-header 
+                button.navbar-toggle(type='button', data-toggle='collapse', data-target='#myNavbar')
+                  span.icon-bar
+                  span.icon-bar
+                  span.icon-bar
+                .social_mobile.menu2
+                  a(href='#').twitter
+                    div.col-md-4
+                      img(src="images/tweet.svg", alt="")
+                  a(href='#').face
+                    div.col-md-4
+                      img(src="images/face.svg", alt="")
+                a.logo(href='/')
+                     img(src="images/logo.svg", alt="")
+                
+              #myNavbar.collapse.navbar-collapse
+                ul.nav.navbar-nav.navbar-right
+                  li.m2.active
+                    a(href='/somos') QUIENES SOMOS
+                  li.m1
+                    a(href='/objetivos') OBJETIVOS
+                  li.m2
+                    a(href='/confiamos') CONFIAMOS
+                  li.m1
+                    a(href='/experiencia') EXPERIENCIA
+                  li.m2.contact-mobile
+                    a(href='/contacto') CONTACTO
+
+
+
+      .col-md-6.menu2.text-center.no-mobile
+        a(href='#').twitter
+          div.col-md-4.col-sm-4.twitter
+            img(src="images/tweet.svg", alt="")
+        a(href='#').face
+          div.col-md-4.col-sm-4.face
+            img(src="images/face.svg", alt="")
+        a(href='/contacto').contact
+          div.col-md-4.col-sm-4.contact
+            img(src="images/contact.svg", alt="")       
+    block content
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js")
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous")
+    script(src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js")
+    script(src="js/main.js")
