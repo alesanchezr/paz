@@ -22,7 +22,7 @@ $(document).ready(function(){
 	        company=$("#company").val();
 	        text=$("#content").val();
 	        $("#message").text("Te mensaje se esta enviando, espera un momento por favor");
-	        $.get("/send",{to:to,name:name,mail:mail,company:company,text:text},function(data){
+	        $.get("http://localhost:3000/send",{to:to,name:name,mail:mail,company:company,text:text},function(data){
 	        if(data=="sent")
 	        {
 	            $("#message").empty().html(name+" , Tu mensaje se ha enviado , ¡Gracias!");
