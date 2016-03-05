@@ -21,13 +21,13 @@ $(document).ready(function(){
 	        mail=$("#mail").val();
 	        company=$("#company").val();
 	        text=$("#content").val();
-	        $("#message").text("Sending E-mail...Please wait");
+	        $("#message").text("Te mensaje se esta enviando, espera un momento por favor");
 	        $.get("http://localhost:3000/send",{to:to,name:name,mail:mail,company:company,text:text},function(data){
 	        if(data=="sent")
 	        {
-	            $("#message").empty().html("Email is been sent at "+to+" . Please check inbox !");
+	            $("#message").empty().html(name+" , Tu mensaje se ha enviado , ¡Gracias!");
 	        }else{
-	        	$("#message").empty().html("x_X");
+	        	$("#message").empty().html("Ups, hubo un problema, porfavor da click <a href='#'>aquí</a> y vuelve a intentarlo");
 	        }
 
 		});
