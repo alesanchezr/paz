@@ -305,10 +305,12 @@ background-color: #efeef5;
 
 }
 .enviar{
+	cursor: pointer;
 	font-size: 20px;
 }
 
 #message{
+	padding-top: 20px;
 	font-size: 12px;
     color: #51ABD0;
 }
