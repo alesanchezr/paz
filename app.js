@@ -4,7 +4,8 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-var nodemailer = require("nodemailer");
+// var nodemailer = require("nodemailer");
+var sendgrid = require('sendgrid');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
@@ -14,21 +15,6 @@ var app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
-//MAILING
-
-
-/*
-    Here we are configuring our SMTP Server details.
-    STMP is mail server which is responsible for sending and recieving email.
-*/
-var smtpTransport = nodemailer.createTransport("SMTP",{
-    service: "Gmail",
-    auth: {
-        user: "rulotico@gmail.com",
-        pass: "rulotico11"
-    }
-});
-/*------------------SMTP Over-----------------------------*/
 
 
 
@@ -45,24 +31,45 @@ app.use('/users', users);
 
 //mail
 app.get('/send',function(req,res){
-    var mailOptions={
-        from: req.query.mail,
-        to : req.query.to,
-        subject:"Mensaje web",
-        text : req.query.text, 
-        html: "<h2>" + req.query.name + "</h2></br><h4>" + req.query.company+"</h4><p>"+req.query.company+"</p>"
+  var sendgrid  = require('sendgrid')(process.env.SENDGRID_USERNAME, process.env.SENDGRID_PASSWORD);
+  sendgrid.send({
+    to : req.query.to,
+    from: req.query.mail,
+    subject: "Mensaje web",
+    text: "<h2>" + req.query.name + "</h2></br><h4>" + req.query.company+"</h4><p>"+req.query.text+"</p>"
+
+  }, function(err, json) {
+    if (err) { 
+      return console.error(err);
+      res.end("error");
+    }else{
+      res.end("sent");
     }
-    console.log(mailOptions);
-    smtpTransport.sendMail(mailOptions, function(error, response){
-     if(error){
-            console.log(error);
-        res.end("error");
-     }else{
-            console.log("Message sent: " + response.message);
-        res.end("sent");
-         }
+    console.log(json);
+  });
+
 });
-});
+
+
+// app.get('/send',function(req,res){
+//     var mailOptions={
+//         from: req.query.mail,
+//         to : req.query.to,
+//         subject:"Mensaje web",
+//         text : req.query.text, 
+//         html: "<h2>" + req.query.name + "</h2></br><h4>" + req.query.company+"</h4><p>"+req.query.company+"</p>"
+//     }
+//     console.log(mailOptions);
+//     smtpTransport.sendMail(mailOptions, function(error, response){
+//      if(error){
+//             console.log(error);
+//         res.end("error");
+//      }else{
+//             console.log("Message sent: " + response.message);
+//         res.end("sent");
+//          }
+// });
+// });
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
