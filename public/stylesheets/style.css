@@ -254,7 +254,10 @@ background-color: #efeef5;
 
 
 /*CONTACT*/
+#send_email{
+	cursor: pointer;
 
+}
 .contact-mobile{
 	display: none !important;
 }
@@ -305,7 +308,7 @@ background-color: #efeef5;
 
 }
 .enviar{
-	
+	#5162A7
 	font-size: 20px;
 }
 

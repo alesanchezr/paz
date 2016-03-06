@@ -15,7 +15,11 @@
 
 $(document).ready(function(){
     var from,to,subject,text;
-    	$("#send_email").click(function(){      
+    	$("#send_email").click(function(){ 
+
+    		$("#message").addClass("animated fadeInUp");
+
+
 	        to="rulotico@gmail.com";
 	        name=$("#name").val();
 	        mail=$("#mail").val();
