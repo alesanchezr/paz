@@ -36,7 +36,8 @@ app.get('/send',function(req,res){
     to : req.query.to,
     from: req.query.mail,
     subject: "Mensaje web",
-    text: "<h2>" + req.query.name + "</h2></br><h4>" + req.query.company+"</h4><p>"+req.query.text+"</p>"
+    text: req.query.mail + req.query.text,
+    html: "<h2>" + req.query.name + "</h2></br><h4>" + req.query.company+"</h4><p>"+req.query.text+"</p>"
 
   }, function(err, json) {
     if (err) { 
