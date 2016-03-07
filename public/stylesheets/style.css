@@ -11,6 +11,11 @@
 }
 
 
+@font-face {
+    font-family: black;
+    src: url(../fonts/futura_h.ttf);
+   
+}
 
 body {
 	background-color: #44436F;
@@ -26,10 +31,14 @@ h1,h2,h3,h4{
 	font-family: futura;
 }
 
+strong{
+	font-family: black !important;
+}
+
 /*BACKGROUNDS*/
 
 .somos_img{
-	background: url(../images/1.jpg) no-repeat center center fixed; 
+	background: url(../images/3.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -37,7 +46,7 @@ h1,h2,h3,h4{
 
 }
 .obj_img{
-	background: url(../images/2.jpg) no-repeat center center fixed; 
+	background: url(../images/1.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -46,15 +55,19 @@ h1,h2,h3,h4{
 }
 
 .confianza_img{
-	background: url(../images/3.jpg) no-repeat center center fixed; 
+	background: url(../images/2.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 
 }
+.home{
+	height: 100vh;
+}
 
 .tabla img{
+	    width: 100%;
 	height: 80vh;
 }
 /* MENU  */
@@ -164,6 +177,8 @@ h1,h2,h3,h4{
 
 .sidea, .sideb{
 	min-height:100vh;
+	margin-top: -80px
+
 }
 .frase{
 	padding: 30px;
@@ -237,12 +252,15 @@ background-color: #efeef5;
 .c-1, .c-2, .c-3, .c-4, .c-5{
 	text-align: left;
 	padding:25px;
+	padding-top: 100px;
 }
 
 /*SECTION 3*/
 
 .e-1{
+
 	padding: 50px;
+	padding-top: 120px;
 	font-size: 1.2em;
 	text-align: justify;
 	font-family: neuzeir;
@@ -263,9 +281,13 @@ background-color: #efeef5;
 }
 
 .mail{
-	font-family: futura;
-	    padding-top: 50%;
+	font-family: neuzeir;
+	    padding-top: 50vh;
        font-size: 2em;
+
+}
+.mail a{
+	color: #DC1050;
 }
 }
 
@@ -282,25 +304,43 @@ background-color: #efeef5;
 	background-color: #EEEEF0;
 	padding: 6em;
 }
+::-webkit-input-placeholder {
+  color: #d3d3d3;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: #d3d3d3;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  color: #d3d3d3;  
+}
+
+:-ms-input-placeholder {  
+  color: #d3d3d3;  
+}
 
 .input-pimp input, .input-pimp textarea{
 	font-family: neuzeir;
 	font-weight: 100;
+	letter-spacing: 1px;
 	display: block;
     width: 100%;
+
     height: 54px;
-    padding: 6px 12px;
+        padding-top: 23px;
+    padding-bottom: 0px;
     font-size: 21px;
     line-height: 1.42857143;
     color: #555;
     background-color: #EEEEF0;
     /* background-image: none; */
     border: 1px solid #EEEEF0;
-    border-bottom: 1px solid #89D0EA;
+    border-bottom: 2px solid #89D0EA;
 }
 
 .input-pimp form{
-	padding-top: 30%;
+	padding-top: 30vh;
 }
 
 .input-pimp textarea{
@@ -308,8 +348,8 @@ background-color: #efeef5;
 
 }
 .enviar{
-	#5162A7
-	font-size: 20px;
+	    color: #054060;
+    font-size: 23px;
 }
 
 #message{
@@ -317,27 +357,121 @@ background-color: #efeef5;
 	font-size: 12px;
     color: #51ABD0;
 }
+
+
+.c-1, .c-2{
+
+	margin-top: 80px;
+
+}
+
+/*ICONS  -------------------------- */
+
+.right img{
+	position: absolute;
+    right: 10px;
+    height: 26px;
+    bottom: 10px;
+}
+
+.left img{
+	position: absolute;
+    left: 10px;
+    height: 26px;
+    bottom: 10px;
+}
+
+
 /* MEDIA */
 
-
-@media(max-width:1318px)  {
-
-	.menu, .menu2{
-		width: 100%;
+.twist{
+		    display: inherit;
 	}
 
-	.navbar-header{
-		z-index: 400;
-		position: relative;
+@media(max-width: 1355px){
+	.navbar-right{
+		font-size: 8px;
 	}
-	.frase{
-		z-index: 1;
+
+	.navbar-nav>li>a{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	
+	.somos, .somos2{
+		padding-right: 40px;
+		padding-left: 40px;
+	}
+
+}
+
+
+@media(max-width: 1091px){
+	.navbar-right{
+		font-size: 8px;
+	}
+
+	.navbar-nav>li>a{
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 
 
 
 }
-@media (max-width: 992px){
+
+
+
+
+
+
+@media (max-width: 991px){
+
+	.container-menu{
+		    position: fixed;
+    z-index: 100;
+    width: 100%;
+	}
+
+	.twist{
+		    display: inherit;
+	}
+
+	.twist_negative{
+		display: none;
+	}
+
+	.sidea {
+    min-height: 100vh;
+    margin-top: inherit;
+	}
+	.sideb {
+    min-height: 100px;
+    margin-top: inherit;
+	}
+
+	.somos{
+		padding-top: 35px !important;
+	}
+
+	.text-side{
+    height: inherit;
+    min-height: 100px;
+	}
+
+	.img-side{
+	    height: 100vh;
+	    min-height: 100px ;
+	}
+
+	.frase{
+		width: 100%;
+	}
+	.navbar-nav>li>a{
+		    padding-top: 50px;
+    		padding-bottom: 50px;
+    		font-size: 30px;
+	}
 
 .twitter :hover{
 	background-color: initial ;
@@ -378,29 +512,69 @@ padding-top: 138px;}
 }
 
 .e-1{
-padding-top: 130px;
-}
-
+    padding-top: 200px;
 }
 
 
-@media(max-width:769px)  {
-	.navbar-toggle .icon-bar {
-    border-radius: 11px;
-    display: block;
-    width: 33px;
-    height: 3px;
-    background-color: gray;
-    border-radius: 1px;
-    
-}
-.mailer{
-	min-height: 232px !important;
-}
+/* ----------------------------------------  HEADER MOBILE   */
+
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+   
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+
+/* ----------------------------------------  HEADER MOBILE   */	
+		.menu2{
+			position: absolute !important;
+		}
+		.menu{
+			position: relative !important;
+			z-index: 10000;
+		}
+		.navbar-toggle .icon-bar {
+	    border-radius: 11px;
+	    display: block;
+	    width: 33px;
+	    height: 3px;
+	    background-color: #4C4848;
+	    border-radius: 1px;
+	    
+			}
+	.mailer{
+		min-height: 232px !important;
+	}
 	.in{
 		z-index: 300;
 	}
-.social_mobile{
+	.social_mobile{
 		display: initial;
 		    display: flex;
 		    width: inherit;
@@ -413,35 +587,137 @@ padding-top: 130px;
 	}
 	.menu, .menu2{
 	position: fixed;
-}
+	}
 
-.contact-mobile{
+	.contact-mobile{
 	display: initial !important;
-}
+	}
 
-.face, .twitter{
+	.face, .twitter{
     padding: 0px;
     margin: 0px;
-    padding-right: 79px;
-}
+       
+	}
+	.social_mobile .twitter , .social_mobile .face {
+		width: 120px !important;
+	}
+	
+	.social_mobile{
+		    margin-right: 110px;
+	}
 
-
-
-.navbar-toggle{
-	padding: 0px;
-	padding-top: 20px;
-        padding-right: 6px;
-	z-index: 200;
-}
+	.navbar-toggle{
+		padding: 0px;
+		padding-top: 20px;
+	            padding-right: 21px;
+		z-index: 200;
+	}
 	.mail {
-	padding-top: 40%;
-    font-size: 1em;
+    
+    padding-bottom: 100px;
+    /* padding-top: 50vh; */
+   
+        padding-top: 210px;
+
+}
+.input-pimp form {
+    padding-top: 0;
+}
+.input-pimp input, .input-pimp textarea {
+    
+    
+    
+   
+   
+    height: 75px;
+    padding-top: 32px;
+   
+    font-size: 30px;
+    
+    /* background-image: none; */
+    
+   
+}
+
+.enviar {
+    color: #054060;
+    font-size: 32px;
+}
+
+#message{
+	 font-size: 31px;
+
+}
+
+	.navbar-header {
+     max-height: 120px; 
+    height: 120px;
+}
+
+.face, .twitter {
+ 
+    height: 120px;
+        padding-top: 34px;
+}
+
+
+.navbar-toggle {
+
+    padding-top: 42px;
+    
+}
+
+.logo img {
+    height: 100px;
+    
+    margin-top: 15px;
+}
+
+.icn{
+		text-align: center;
+    height: 38px;
+    margin-top: 33px;
+    width: 100%;
+	}
+
+	.icn img{
+		    position: relative;
+	}
+.c-1, .c-2{
+	margin-top: 0px;
+}
+
+.confianza_icn{
+	position: absolute;
+	    bottom: 6px;
 }
 
 }
+
+
+
+@media(max-width:900px)  {
+
+	
+
+	.menu, .menu2{
+		width: 100%;
+	}
+
+	.navbar-header{
+		z-index: 400;
+		position: relative;
+	}
+	.frase{
+		z-index: 1;
+	}
+
+}
+
 
 
 @media(max-width:400px)  {
+
 .m-2 {
     background-color: #EEEEF0;
     padding: 4em;
@@ -458,6 +734,7 @@ padding-top: 130px;
 }
 
 .social_mobile{
+	display: none;
     margin-right: 16px !important;
 }
 
