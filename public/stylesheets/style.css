@@ -188,7 +188,8 @@ strong{
     font-family: futura;
     letter-spacing: 1px;
         font-weight: bolder;
-     color: #27272c;
+     color: #E0E0E0;
+    letter-spacing: 4px;
 }
 
 .ha{
@@ -252,7 +253,7 @@ background-color: #efeef5;
 .c-1, .c-2, .c-3, .c-4, .c-5{
 	text-align: left;
 	padding:25px;
-	padding-top: 100px;
+	    padding-top: 40px;
 }
 
 /*SECTION 3*/
@@ -296,7 +297,7 @@ background-color: #efeef5;
 }
 
 .m-1{
-	background-color: #393644;
+	background-color: #EAEAEA !important;
 	    color: aliceblue;
     letter-spacing: 3px;
 }
@@ -451,7 +452,12 @@ background-color: #efeef5;
 	}
 
 	.somos{
+		font-size: 48px !important;
 		padding-top: 35px !important;
+	}
+
+	.somos2{
+	font-size: 24px;
 	}
 
 	.text-side{
@@ -508,7 +514,8 @@ font-size: 3em;
 padding-top: 138px;}
 
 .c-1, .c-2, .c-3, .c-4, .c-5{
-	padding-top: 15%;
+	padding-top: 10%;
+    font-size: 31px;
 }
 
 .e-1{
@@ -570,6 +577,7 @@ padding-top: 138px;}
 			}
 	.mailer{
 		min-height: 232px !important;
+		
 	}
 	.in{
 		z-index: 300;
@@ -676,7 +684,7 @@ padding-top: 138px;}
 .icn{
 		text-align: center;
     height: 38px;
-    margin-top: 33px;
+  
     width: 100%;
 	}
 
@@ -689,7 +697,7 @@ padding-top: 138px;}
 
 .confianza_icn{
 	position: absolute;
-	    bottom: 6px;
+	       background: #F4F5F6;
 }
 
 }
