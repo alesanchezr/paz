@@ -485,7 +485,7 @@ GRAFICAS #######################################################################
  	width: 40%;;
  	height: 300px;
  	padding: 0;
-	margin-left: 25%;
+	margin-left: 28%;
 	margin-top: 6%;;
 	
 }
@@ -494,8 +494,7 @@ GRAFICAS #######################################################################
 	list-style-type: none;
 	width: 300px;
 	height: 300px;
-	padding: 0;
- 	margin: 0;
+	
 }
 	
  #pie_chart li {
@@ -683,6 +682,17 @@ GRAFICAS #######################################################################
 	.sideb {
     min-height: 100px;
     margin-top: inherit;
+	}
+	
+	.a2, .tabl{
+		min-height: 20px !important;
+		padding-bottom: 50px;
+	}
+	.tabla img{
+
+		min-height:20px;
+		height: initial; 
+
 	}
 
 	.somos{
@@ -954,11 +964,18 @@ padding-top: 138px;}
 		z-index: 1;
 	}
 
+
+}
+@media(max-width:700px)  {
+
+#pie_chart{
+		    margin-left: 34%;
+	}
 }
 
 
-
 @media(max-width:400px)  {
+
 
 .m-2 {
     background-color: #EEEEF0;
