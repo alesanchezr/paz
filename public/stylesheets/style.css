@@ -62,6 +62,9 @@ strong{
   background-size: cover;
 
 }
+.upper{
+	text-transform: uppercase;
+}
 .home{
 	height: 100vh;
 }
@@ -366,7 +369,234 @@ background-color: #efeef5;
 
 }
 
-/*ICONS  -------------------------- */
+/*LOGROS----------------------------------*/
+
+.part2{
+	margin-top: 0px;
+	font-family: neuzeir !important;
+}
+
+.a2{
+	padding-top: 120px;
+	color: #69697F;
+	letter-spacing: 1px;
+	font-size: 33px;
+	background-color: #3C3C47;
+}
+
+.bright{
+color: #9696AA;
+}
+.tag{
+    padding-top: 3em;
+    font-size: 23px;
+
+}
+
+.numbers{
+    font-size: 18px;
+    padding-top: 30px;;
+
+}
+
+.numbers span{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.numbers .si, .numbers .no{
+	background-color: #D5408C;
+	border-radius: 88px;
+	position: relative;
+	padding-top: 10px;
+	padding-bottom: 9px;
+	padding-left: 10px;
+	margin-left: 8px;
+	margin-right: 9px;
+	color: #560F4C;
+	padding-right: 6px;
+
+}
+
+.numbers .no{
+    background-color: #2E2E39;
+    padding-left: 9px;
+    padding-right: 6px;
+    color: #595ED1;
+
+}
+.a3 .title{
+	font-size: 33px; 
+	padding-bottom: 40px;
+	color: #363644;
+}
+.a3 p{
+	padding-bottom: 20px;
+}
+
+.a3{
+	padding-top: 120px;
+	font-size: 21px;
+	padding-right: 70px;
+	padding-left: 70px;
+	color: #5A5A77;
+
+}
+.comment_a, .comment_b{
+	font-size: 33px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #9696AA;
+	text-align: center;
+	font-family: neuzeir;
+	
+}
+
+.experiencia{
+	font-family: neuzeir;
+	font-size: 30px;
+	color: #564B7D;
+}
+.comment_a{
+	background-color: #3C3C47;
+}
+
+.comment_b{
+	background-color: #2F2F38;
+}
+
+.super_title{
+	text-align: left;
+}
+/*
+GRAFICAS ########################################################################################### */
+
+/* Charts start */
+#chart_holder {
+	width: 600px;
+	height: 350px;
+	margin: 0;
+	padding: 0;
+}
+
+ #pie_chart {
+	position: relative;
+	float: left;
+ 	width: 40%;;
+ 	height: 300px;
+ 	padding: 0;
+	margin-left: 25%;
+	margin-top: 6%;;
+	
+}
+
+ #pie_chart ul {
+	list-style-type: none;
+	width: 300px;
+	height: 300px;
+	padding: 0;
+ 	margin: 0;
+}
+	
+ #pie_chart li {
+	position: absolute;
+	top: 0px;
+	width: 300px;
+	height: 300px;
+ 	padding: 0;
+ 	margin: 0;
+}
+
+#pie_chart p {
+	width: 300px;
+	height: 300px;
+ 	padding: 0;
+ 	margin: 0;
+}
+
+#pie_chart li p { -webkit-transition: all .7s ease-out;}
+
+#pie_chart span { display: block; width: 150px; height: 300px;}
+
+#pie_chart ul :nth-child(odd) {
+	clip: rect(0px, 300px, 300px, 150px);}
+
+#pie_chart ul :nth-child(even) { clip: rect(0px, 150px, 300px, 0px);}
+
+.pie_left{
+	-moz-border-radius-topleft: 150px;
+	-moz-border-radius-bottomleft: 150px;
+	-webkit-border-top-left-radius: 150px;
+	-webkit-border-bottom-left-radius: 150px;
+	border-top-left-radius: 150px;
+	border-bottom-left-radius: 150px;
+}
+
+.pie_right{
+	margin-left: 150px;
+	-moz-border-radius-topright: 150px;
+	-moz-border-radius-bottomright: 150px;
+	-webkit-border-top-right-radius: 150px;
+	-webkit-border-bottom-right-radius: 150px;
+	border-top-right-radius: 150px;
+	border-bottom-right-radius: 150px;
+}
+
+#c1_l span {
+	background: #2E2E39;
+	
+}
+
+#c1_r span {
+	background: #2E2E39;
+	
+}
+ 
+#c2_l span {
+	background: #D3448C;
+	
+}
+
+#c2_r span {
+	background: #D3448C;
+	
+}
+
+
+/*Pie chart data (degree value) */
+
+/*9%*/
+#pie_chart ul :nth-child(1) p, #g1:target #pie_chart ul :nth-child(1) p{ -moz-transform: rotate(180deg); -webkit-transform: rotate(180deg); -o-transform: rotate(180deg);}
+#pie_chart ul :nth-child(2) p, #g1:target #pie_chart ul :nth-child(2) p{ -moz-transform: rotate(180deg); -webkit-transform: rotate(180deg); -o-transform: rotate(180deg);}
+#pie_chart ul :nth-child(3) p, #g1:target #pie_chart ul :nth-child(3) p{ -moz-transform: rotate(10deg); -webkit-transform: rotate(10deg); -o-transform: rotate(10deg);}
+#pie_chart ul :nth-child(4) p, #g1:target #pie_chart ul :nth-child(4) p{ -moz-transform: rotate(-20deg); -webkit-transform: rotate(-20deg); -o-transform: rotate(-20deg);}
+
+/*4%*/
+#g2:target #pie_chart ul :nth-child(1) p{ -moz-transform: rotate(180deg); -webkit-transform: rotate(180deg); -o-transform: rotate(180deg);}
+#g2:target #pie_chart ul :nth-child(2) p{ -moz-transform: rotate(180deg); -webkit-transform: rotate(180deg); -o-transform: rotate(180deg);}
+#g2:target #pie_chart ul :nth-child(3) p{ -moz-transform: rotate(2deg); -webkit-transform: rotate(2deg); -o-transform: rotate(2deg);}
+#g2:target #pie_chart ul :nth-child(4) p{ -moz-transform: rotate(-10deg); -webkit-transform: rotate(-10deg); -o-transform: rotate(-10deg);}
+
+/*9%*/
+#g3:target #pie_chart ul :nth-child(1) p{ -moz-transform: rotate(180deg); -webkit-transform: rotate(180deg); -o-transform: rotate(180deg);}
+#g3:target #pie_chart ul :nth-child(2) p{ -moz-transform: rotate(180deg); -webkit-transform: rotate(180deg); -o-transform: rotate(180deg);}
+#g3:target #pie_chart ul :nth-child(3) p{ -moz-transform: rotate(10deg); -webkit-transform: rotate(10deg); -o-transform: rotate(10deg);}
+#g3:target #pie_chart ul :nth-child(4) p{ -moz-transform: rotate(-5deg); -webkit-transform: rotate(-5deg); -o-transform: rotate(-5deg);}
+
+/*20%*/
+#g4:target #pie_chart ul :nth-child(1) p{ -moz-transform: rotate(180deg); -webkit-transform: rotate(180deg); -o-transform: rotate(180deg);}
+#g4:target #pie_chart ul :nth-child(2) p{ -moz-transform: rotate(180deg); -webkit-transform: rotate(180deg); -o-transform: rotate(180deg);}
+#g4:target #pie_chart ul :nth-child(3) p{ -moz-transform: rotate(10deg); -webkit-transform: rotate(10deg); -o-transform: rotate(10deg);}
+#g4:target #pie_chart ul :nth-child(4) p{ -moz-transform: rotate(-40deg); -webkit-transform: rotate(-40deg); -o-transform: rotate(-40deg);}
+
+
+/*
+GRAFICAS ########################################################################################### */
+
+
+
+
+/*ICONS  ----------------------------------------------------------------------------------############################- */
 
 .right img{
 	position: absolute;
@@ -388,6 +618,10 @@ background-color: #efeef5;
 .twist{
 		    display: inherit;
 	}
+
+.twist_negative{
+	display: none;
+}
 
 @media(max-width: 1355px){
 	.navbar-right{
@@ -745,5 +979,26 @@ padding-top: 138px;}
 	display: none;
     margin-right: 16px !important;
 }
+
+}
+
+
+
+
+
+#chart_holder  {
+    width: 100%;
+    margin: 0;
+
+}
+
+
+
+
+
+
+#slider  {
+    overflow-y: hidden;
+    overflow-x: auto;
 
 }
