@@ -41,3 +41,91 @@ $(document).ready(function(){
 
 });
 
+
+
+
+things={
+	dato1:["Ha aumentado la participación","4%","94%","#g3"],
+	dato2:["Ha mejorado la convivencia","9%","91%","#g1"],
+	dato3:["Se ha desarrollado la resolución de conflictos","9%","91%","#g1"],
+	dato4:["Ha disminuido la violencia","28%","72%","#g4"]
+};
+
+flag=0;
+
+
+
+$(window).scroll(function(){
+	old_scroll=$("body").scrollTop();
+	
+});
+
+$(document).ready(function() {  
+
+    function graficas(){
+    		
+    		$(".tag, .porcentaje_si, .porcentaje_no").text("");
+    		
+    	if (flag == 0) {
+    		$(".tag").text(things.dato1[0]);
+    		$(".tag").addClass("animated fadeInUp").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+    			function(){
+    				$(this).removeClass("animated fadeInUp");
+    			}
+    		 );
+    		
+    		$(".porcentaje_si").text(things.dato1[1]);
+    		$(".porcentaje_no").text(things.dato1[2]);
+
+    		 window.location.href=things.dato1[3];
+    		flag++;
+    	}else if (flag==1) {
+    		$(".tag").text(things.dato2[0]);
+    		$(".tag").addClass("animated fadeInUp").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+    			function(){
+    				$(this).removeClass("animated fadeInUp");
+    			}
+    		 );
+    		
+    		$(".porcentaje_si").text(things.dato2[1]);
+    		$(".porcentaje_no").text(things.dato2[2]);
+    		window.location.href=things.dato2[3];
+    		flag++;
+    	}else if (flag==2) {
+			$(".tag").text(things.dato3[0]);
+			$(".tag").addClass("animated fadeInUp").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+    			function(){
+    				$(this).removeClass("animated fadeInUp");
+    			}
+    		 );
+    		
+    		$(".porcentaje_si").text(things.dato3[1]);
+    		$(".porcentaje_no").text(things.dato3[2]);
+    		window.location.href=things.dato3[3];
+    		flag++;
+    	}else if (flag==3) {
+			$(".tag").text(things.dato4[0]);
+			$(".tag").addClass("animated fadeInUp").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+    			function(){
+    				$(this).removeClass("animated fadeInUp");
+    			}
+    		 );
+    		
+    		$(".porcentaje_si").text(things.dato4[1]);
+    		$(".porcentaje_no").text(things.dato4[2]);
+    		window.location.href=things.dato4[3];
+    		flag=0;
+    	}
+    	
+
+    		$('body').scrollTop(old_scroll);
+    	
+
+
+
+    }
+    
+
+    setInterval(graficas, 3000);
+    
+});
