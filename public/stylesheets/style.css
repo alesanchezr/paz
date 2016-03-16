@@ -1,12 +1,12 @@
 
 @font-face {
-    font-family: futura;
-    src: url(../fonts/futura.ttf);
+    font-family: neuzeir;
+    src: url(../fonts/neuzeir.ttf);
 }
 
 @font-face {
-    font-family: neuzeir;
-    src: url(../fonts/neuzeir.ttf);
+    font-family: avenir;
+    src: url(../fonts/avenir.ttf);
    
 }
 
@@ -20,7 +20,8 @@
 body {
 	background-color: #44436F;
   padding: 0px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	color: #473F5D;
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -32,7 +33,7 @@ h1,h2,h3,h4{
 }
 
 strong{
-	font-family: black !important;
+	font-family: neuzeir !important;
 }
 
 /*BACKGROUNDS*/
@@ -73,6 +74,10 @@ strong{
 	    width: 100%;
 	height: 80vh;
 }
+
+.active_menu{
+	background-color: #A8BAFF !important;
+}
 /* MENU  */
 
 .col-md-6{
@@ -96,13 +101,13 @@ strong{
 }
 .menu{
 	background-color: #F5F5F5;
-	font-family: neuzeir;
 	font-weight: 100;
 	font-size: 10px;
 	 letter-spacing: 1px;
 		padding: 0px;
 	 padding-left: 0px !important;
     margin-left: 0px !important;
+	font-family: avenir;
 }
 
 .menu a{
@@ -127,6 +132,7 @@ strong{
 	        padding: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
+	        font-family: neuzeir;
     /*font-size: 8px;*/
 }
 
@@ -180,9 +186,15 @@ strong{
 
 .sidea, .sideb{
 	min-height:100vh;
-	margin-top: -80px
+	margin-top: -80px;
+	text-align:justify !important;
 
 }
+
+.title, .tag{
+	text-align: center !important; 
+}
+
 .frase{
 	padding: 30px;
 	    z-index: 20;
@@ -218,15 +230,15 @@ strong{
 	padding-bottom: 20px;
 }
 .somos{
-font-size: 29px;
-font-family: neuzeir;
+font-size: 164%;
+font-family: avenir;
 text-align: left;
 padding: 140px;
 padding-bottom: 20px;
 }
 
 .somos2{
-	font-family: neuzeir;
+	font-family: avenir;
 	text-align: justify;
 	padding-left: 140px;
 	padding-right: 140px;
@@ -238,7 +250,7 @@ padding-bottom: 20px;
 background-color: #efeef5;
 }
 .o-1 .somos{
-	    font-size: 30px;
+	    font-size: 1.5em;
 }
 
 /*SECTION 3*/
@@ -249,7 +261,7 @@ background-color: #efeef5;
 .c-5{ background-color: #F5F6F7}
 .confiar{
 	padding: 0px;
-	font-family: neuzeir;
+	font-family: avenir;
 	    font-size: 1.6em;
 }
 
@@ -265,9 +277,8 @@ background-color: #efeef5;
 
 	padding: 50px;
 	padding-top: 120px;
-	font-size: 21px;
 	text-align: justify;
-	font-family: neuzeir;
+	font-family: avenir;
 }
 
 .e-1 p{
@@ -285,7 +296,7 @@ background-color: #efeef5;
 }
 
 .mail{
-	font-family: neuzeir;
+	font-family: avenir;
 	    padding-top: 50vh;
        font-size: 2em;
 
@@ -325,7 +336,7 @@ background-color: #efeef5;
 }
 
 .input-pimp input, .input-pimp textarea{
-	font-family: neuzeir;
+	font-family: avenir;
 	font-weight: 100;
 	letter-spacing: 1px;
 	display: block;
@@ -344,7 +355,7 @@ background-color: #efeef5;
 }
 
 .input-pimp form{
-	padding-top: 30vh;
+	padding-top: 16vh;
 }
 
 .input-pimp textarea{
@@ -373,7 +384,7 @@ background-color: #efeef5;
 
 .part2{
 	margin-top: 0px;
-	font-family: neuzeir !important;
+	font-family: avenir !important;
 }
 
 .a2{
@@ -395,7 +406,7 @@ color: #9696AA;
 
 .numbers{
     font-size: 18px;
-    padding-top: 30px;;
+    padding-top: 30px;
 
 }
 
@@ -405,7 +416,7 @@ color: #9696AA;
 }
 
 .numbers .si, .numbers .no{
-	background-color: #2E2E39;
+	background-color: #D5408C;
 	border-radius: 88px;
 	position: relative;
 	padding-top: 10px;
@@ -413,34 +424,33 @@ color: #9696AA;
 	padding-left: 10px;
 	margin-left: 8px;
 	margin-right: 9px;
-	color: #595ED1;
+	color: #560F4C;
 	padding-right: 11px;
 
 }
 
 .numbers .no{
-    background-color: #D5408C;
+    background-color: #2E2E39;
     padding-left: 9px;
     padding-right: 1px;
-    color: #560F4C;
+    color: #595ED1;
 
 }
 .a3 .title{
 	font-size: 33px; 
 	padding-bottom: 40px;
-	color: #363644;
 }
 .a3 p{
 	padding-bottom: 20px;
 }
 
 .a3{
-	padding-top: 120px;
 	font-size: 21px;
 	padding-right: 70px;
 	padding-left: 70px;
 	color: #5A5A77;
 	text-align: left;
+	padding-top: 100px;
 
 }
 .comment_a, .comment_b{
@@ -449,14 +459,14 @@ color: #9696AA;
 	padding-bottom: 50px;
 	color: #9696AA;
 	text-align: center;
-	font-family: neuzeir;
+	font-family: avenir;
 	
 }
 
 .experiencia{
-	font-family: neuzeir;
-	font-size: 22px;
+	font-family: avenir;
 	color: #564B7D;
+	padding-bottom: 20px
 }
 .comment_a{
 	background-color: #3C3C47;
@@ -483,11 +493,11 @@ GRAFICAS #######################################################################
  #pie_chart {
 	position: relative;
 	float: left;
- 	width: 40%;;
+ 	width: 40%;
  	height: 300px;
  	padding: 0;
-	margin-left: 25%;
-	margin-top: 6%;;
+	margin-left: 12%;
+	margin-top: 6%;
 	
 }
 
@@ -543,22 +553,22 @@ GRAFICAS #######################################################################
 }
 
 #c1_l span {
-	background: #2E2E39;
+	background: #D3448C;
 	
 }
 
 #c1_r span {
-	background: #2E2E39;
+	background: #D3448C;
 	
 }
  
 #c2_l span {
-	background: #D3448C;
+	background: #2E2E39;
 	
 }
 
 #c2_r span {
-	background: #D3448C;
+	background: #2E2E39;
 	
 }
 
@@ -630,6 +640,10 @@ GRAFICAS #######################################################################
 .twist_negative{
 	display: none;
 }
+.only-mobile{
+	display: none;
+}
+
 
 @media(max-width: 1355px){
 	.navbar-right{
@@ -680,7 +694,18 @@ GRAFICAS #######################################################################
 
 
 @media (max-width: 991px){
-
+	#pie_chart{
+		margin-left: 21%;
+	}
+	.title{
+		padding-top: 100px;
+	}
+	.tag{
+		padding-top: 1em;
+	}
+	.a2{
+		    padding-top: 100px;
+	}
 	.container-menu{
 		    position: fixed;
     z-index: 100;
@@ -696,7 +721,6 @@ GRAFICAS #######################################################################
 	}
 
 	.sidea {
-    min-height: 100vh;
     margin-top: inherit;
 	}
 	.sideb {
@@ -705,8 +729,8 @@ GRAFICAS #######################################################################
 	}
 	
 	.a2, .tabl{
-		min-height: 20px !important;
 		padding-bottom: 50px;
+		min-height: 20px !important;
 	}
 	.tabla img{
 
@@ -716,7 +740,6 @@ GRAFICAS #######################################################################
 	}
 
 	.somos{
-		font-size: 48px !important;
 		padding-top: 35px !important;
 	}
 
@@ -727,6 +750,7 @@ GRAFICAS #######################################################################
 	.text-side{
     height: inherit;
     min-height: 100px;
+    padding: 21px;
 	}
 
 	.img-side{
@@ -769,7 +793,6 @@ font-size: 3em;
 }
 
 .somos, .somos2{
-	padding: 0px;
 	padding-top: 50px;
 
 }
@@ -778,13 +801,13 @@ font-size: 3em;
 padding-top: 138px;}
 
 .c-1, .c-2, .c-3, .c-4, .c-5{
-	padding-top: 10%;
-    font-size: 31px;
+	padding-top: 7%;
 }
 
 .e-1{
-    padding-top: 200px;
+    padding-top: 100px;
 }
+
 
 
 /* ----------------------------------------  HEADER MOBILE   */
@@ -853,6 +876,9 @@ padding-top: 138px;}
 		        right: 0px;
     position: absolute;
     
+	}
+	.only-mobile{
+		display: -webkit-box;
 	}
 	.no-mobile{
 		display: none;
@@ -970,7 +996,7 @@ padding-top: 138px;}
 
 @media(max-width:900px)  {
 
-	
+
 
 	.menu, .menu2{
 		width: 100%;
@@ -989,7 +1015,7 @@ padding-top: 138px;}
 @media(max-width:700px)  {
 
 #pie_chart{
-		    margin-left: 34%;
+		    margin-left: 16%;
 	}
 }
 
