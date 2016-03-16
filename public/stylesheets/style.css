@@ -377,7 +377,7 @@ background-color: #efeef5;
 }
 
 .a2{
-	padding-top: 120px;
+	padding-top: 30px;
 	color: #69697F;
 	letter-spacing: 1px;
 	font-size: 33px;
@@ -444,7 +444,7 @@ color: #9696AA;
 
 }
 .comment_a, .comment_b{
-	font-size: 25px;
+	font-size: 25gipx;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	color: #9696AA;
@@ -486,7 +486,7 @@ GRAFICAS #######################################################################
  	width: 40%;;
  	height: 300px;
  	padding: 0;
-	margin-left: 28%;
+	margin-left: 25%;
 	margin-top: 6%;;
 	
 }
