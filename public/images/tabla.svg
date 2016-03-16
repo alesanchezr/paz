@@ -5,83 +5,159 @@
 	 width="1000px" height="1000px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
 <rect x="-15" y="-19.31" fill="#2F2F37" width="1134.143" height="1048.31"/>
 <g>
-	<defs>
-		<rect id="SVGID_1_" x="-940" y="-80" width="1920" height="1080"/>
-	</defs>
-	<clipPath id="SVGID_2_">
-		<use xlink:href="#SVGID_1_"  overflow="visible"/>
-	</clipPath>
+	<g>
+		<defs>
+			<rect id="SVGID_1_" x="-940" y="-80" width="1920" height="1080"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+		<path clip-path="url(#SVGID_2_)" fill="#249046" d="M146.65,776.953c0,5.08-4.119,9.199-9.2,9.199
+			c-5.08,0-9.199-4.119-9.199-9.199c0-5.082,4.119-9.199,9.199-9.199C142.531,767.754,146.65,771.871,146.65,776.953"/>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_3_" x="-940" y="-80" width="1920" height="1080"/>
+		</defs>
+		<clipPath id="SVGID_4_">
+			<use xlink:href="#SVGID_3_"  overflow="visible"/>
+		</clipPath>
+		<path clip-path="url(#SVGID_4_)" fill="#E14044" d="M146.65,817.695c0,5.08-4.119,9.197-9.2,9.197
+			c-5.08,0-9.199-4.117-9.199-9.197c0-5.082,4.119-9.201,9.199-9.201C142.531,808.494,146.65,812.613,146.65,817.695"/>
+	</g>
 </g>
+<text transform="matrix(1 0 0 1 155.2705 823.5566)" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="18.0176">ANTE</text>
+<text transform="matrix(1 0 0 1 200.0835 823.5566)" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="18.0176">S</text>
+<text transform="matrix(1 0 0 1 153.3569 782.6484)" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="18.0176">DES</text>
+<text transform="matrix(1 0 0 1 186.5073 782.6484)" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="18.0176">P</text>
+<text transform="matrix(1 0 0 1 197.0835 782.6484)" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="18.0176">UÉ</text>
+<text transform="matrix(1 0 0 1 219.9316 782.6484)" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="18.0176">S</text>
+<text transform="matrix(1 0 0 1 277.9795 857.6465)" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="13.1859">G</text>
+<text transform="matrix(1 0 0 1 288.501 857.6465)" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="13.1859">RUPO </text>
+<text transform="matrix(1 0 0 1 329.6006 857.6465)" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="13.1859">1</text>
 <g>
-	<defs>
-		<rect id="SVGID_3_" x="-940" y="-80" width="1920" height="1080"/>
-	</defs>
-	<clipPath id="SVGID_4_">
-		<use xlink:href="#SVGID_3_"  overflow="visible"/>
-	</clipPath>
-	<path clip-path="url(#SVGID_4_)" fill="#249046" d="M146.65,776.953c0,5.08-4.119,9.199-9.2,9.199c-5.08,0-9.199-4.119-9.199-9.199
-		c0-5.082,4.119-9.199,9.199-9.199C142.531,767.754,146.65,771.871,146.65,776.953"/>
-	<path clip-path="url(#SVGID_4_)" fill="#E14044" d="M146.65,817.695c0,5.08-4.119,9.198-9.2,9.198c-5.08,0-9.199-4.118-9.199-9.198
-		c0-5.082,4.119-9.201,9.199-9.201C142.531,808.494,146.65,812.613,146.65,817.695"/>
+	<g>
+		<defs>
+			<rect id="SVGID_5_" x="-940" y="-80" width="1920" height="1080"/>
+		</defs>
+		<clipPath id="SVGID_6_">
+			<use xlink:href="#SVGID_5_"  overflow="visible"/>
+		</clipPath>
+		
+			<line clip-path="url(#SVGID_6_)" fill="none" stroke="#249046" stroke-width="12" stroke-linecap="round" stroke-miterlimit="10" x1="290.9" y1="553.078" x2="290.9" y2="821.41"/>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_7_" x="-940" y="-80" width="1920" height="1080"/>
+		</defs>
+		<clipPath id="SVGID_8_">
+			<use xlink:href="#SVGID_7_"  overflow="visible"/>
+		</clipPath>
+		
+			<line clip-path="url(#SVGID_8_)" fill="none" stroke="#E14044" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="330.9" y1="400.377" x2="330.9" y2="821.41"/>
+	</g>
 </g>
-<text transform="matrix(1 0 0 1 154.3799 821.4111)"><tspan x="0" y="0" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="11">ANTE</tspan><tspan x="28.754" y="0" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="11">S</tspan></text>
-<text transform="matrix(1 0 0 1 154.8398 779.9521)"><tspan x="0" y="0" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="11">DES</tspan><tspan x="20.239" y="0" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="11">P</tspan><tspan x="26.696" y="0" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="11">UE</tspan><tspan x="40.645" y="0" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="11">S</tspan></text>
-<text transform="matrix(1 0 0 1 287.1699 857.0615)"><tspan x="0" y="0" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="11">G</tspan><tspan x="8.778" y="0" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="11">RUPO </tspan><tspan x="43.064" y="0" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="11">1</tspan></text>
+<text transform="matrix(1 0 0 1 407.0371 857.6543)" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="13.1859">G</text>
+<text transform="matrix(1 0 0 1 417.5596 857.6543)" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="13.1859">RUPO </text>
+<text transform="matrix(1 0 0 1 458.6592 857.6543)" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="13.1859">2</text>
 <g>
-	<defs>
-		<rect id="SVGID_5_" x="-940" y="-80" width="1920" height="1080"/>
-	</defs>
-	<clipPath id="SVGID_6_">
-		<use xlink:href="#SVGID_5_"  overflow="visible"/>
-	</clipPath>
-	
-		<line clip-path="url(#SVGID_6_)" fill="none" stroke="#249046" stroke-width="12" stroke-linecap="round" stroke-miterlimit="10" x1="290.9" y1="553.078" x2="290.9" y2="821.41"/>
-	
-		<line clip-path="url(#SVGID_6_)" fill="none" stroke="#E14044" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="330.9" y1="400.377" x2="330.9" y2="821.41"/>
+	<g>
+		<defs>
+			<rect id="SVGID_9_" x="-940" y="-80" width="1920" height="1080"/>
+		</defs>
+		<clipPath id="SVGID_10_">
+			<use xlink:href="#SVGID_9_"  overflow="visible"/>
+		</clipPath>
+		
+			<line clip-path="url(#SVGID_10_)" fill="none" stroke="#249046" stroke-width="12" stroke-linecap="round" stroke-miterlimit="10" x1="416.35" y1="541.18" x2="416.35" y2="821.41"/>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_11_" x="-940" y="-80" width="1920" height="1080"/>
+		</defs>
+		<clipPath id="SVGID_12_">
+			<use xlink:href="#SVGID_11_"  overflow="visible"/>
+		</clipPath>
+		
+			<line clip-path="url(#SVGID_12_)" fill="none" stroke="#E14044" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="456.35" y1="347.822" x2="456.35" y2="821.41"/>
+	</g>
 </g>
-<text transform="matrix(1 0 0 1 412.6299 857.0674)"><tspan x="0" y="0" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="11">G</tspan><tspan x="8.778" y="0" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="11">RUPO </tspan><tspan x="43.064" y="0" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="11">2</tspan></text>
+<text transform="matrix(1 0 0 1 539.2734 857.6543)" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="13.1859">G</text>
+<text transform="matrix(1 0 0 1 549.7959 857.6543)" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="13.1859">RUPO </text>
+<text transform="matrix(1 0 0 1 590.8945 857.6543)" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="13.1859">3</text>
 <g>
-	<defs>
-		<rect id="SVGID_7_" x="-940" y="-80" width="1920" height="1080"/>
-	</defs>
-	<clipPath id="SVGID_8_">
-		<use xlink:href="#SVGID_7_"  overflow="visible"/>
-	</clipPath>
-	
-		<line clip-path="url(#SVGID_8_)" fill="none" stroke="#249046" stroke-width="12" stroke-linecap="round" stroke-miterlimit="10" x1="416.35" y1="541.18" x2="416.35" y2="821.41"/>
-	
-		<line clip-path="url(#SVGID_8_)" fill="none" stroke="#E14044" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="456.35" y1="347.822" x2="456.35" y2="821.41"/>
+	<g>
+		<defs>
+			<rect id="SVGID_13_" x="-940" y="-80" width="1920" height="1080"/>
+		</defs>
+		<clipPath id="SVGID_14_">
+			<use xlink:href="#SVGID_13_"  overflow="visible"/>
+		</clipPath>
+		
+			<line clip-path="url(#SVGID_14_)" fill="none" stroke="#249046" stroke-width="12" stroke-linecap="round" stroke-miterlimit="10" x1="549.22" y1="578.859" x2="549.22" y2="821.41"/>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_15_" x="-940" y="-80" width="1920" height="1080"/>
+		</defs>
+		<clipPath id="SVGID_16_">
+			<use xlink:href="#SVGID_15_"  overflow="visible"/>
+		</clipPath>
+		
+			<line clip-path="url(#SVGID_16_)" fill="none" stroke="#E14044" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="589.22" y1="393.436" x2="589.22" y2="821.411"/>
+	</g>
 </g>
-<text transform="matrix(1 0 0 1 545.5 857.0674)"><tspan x="0" y="0" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="11">G</tspan><tspan x="8.778" y="0" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="11">RUPO </tspan><tspan x="43.064" y="0" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="11">3</tspan></text>
+<text transform="matrix(1 0 0 1 671.8799 857.6543)" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="13.1859">G</text>
+<text transform="matrix(1 0 0 1 682.4014 857.6543)" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="13.1859">RUPO </text>
+<text transform="matrix(1 0 0 1 723.502 857.6543)" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="13.1859">4</text>
 <g>
-	<defs>
-		<rect id="SVGID_9_" x="-940" y="-80" width="1920" height="1080"/>
-	</defs>
-	<clipPath id="SVGID_10_">
-		<use xlink:href="#SVGID_9_"  overflow="visible"/>
-	</clipPath>
-	
-		<line clip-path="url(#SVGID_10_)" fill="none" stroke="#249046" stroke-width="12" stroke-linecap="round" stroke-miterlimit="10" x1="549.22" y1="578.859" x2="549.22" y2="821.41"/>
-	
-		<line clip-path="url(#SVGID_10_)" fill="none" stroke="#E14044" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="589.22" y1="393.436" x2="589.22" y2="821.411"/>
+	<g>
+		<defs>
+			<rect id="SVGID_17_" x="-940" y="-80" width="1920" height="1080"/>
+		</defs>
+		<clipPath id="SVGID_18_">
+			<use xlink:href="#SVGID_17_"  overflow="visible"/>
+		</clipPath>
+		
+			<line clip-path="url(#SVGID_18_)" fill="none" stroke="#249046" stroke-width="12" stroke-linecap="round" stroke-miterlimit="10" x1="682.09" y1="278.412" x2="682.09" y2="821.41"/>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_19_" x="-940" y="-80" width="1920" height="1080"/>
+		</defs>
+		<clipPath id="SVGID_20_">
+			<use xlink:href="#SVGID_19_"  overflow="visible"/>
+		</clipPath>
+		
+			<line clip-path="url(#SVGID_20_)" fill="none" stroke="#E14044" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="722.09" y1="260.565" x2="722.09" y2="821.411"/>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_21_" x="-940" y="-80" width="1920" height="1080"/>
+		</defs>
+		<clipPath id="SVGID_22_">
+			<use xlink:href="#SVGID_21_"  overflow="visible"/>
+		</clipPath>
+		
+			<line clip-path="url(#SVGID_22_)" fill="none" stroke="#249046" stroke-width="12" stroke-linecap="round" stroke-miterlimit="10" x1="809.15" y1="372.463" x2="809.15" y2="821.41"/>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_23_" x="-940" y="-80" width="1920" height="1080"/>
+		</defs>
+		<clipPath id="SVGID_24_">
+			<use xlink:href="#SVGID_23_"  overflow="visible"/>
+		</clipPath>
+		
+			<line clip-path="url(#SVGID_24_)" fill="none" stroke="#E14044" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="849.15" y1="357.708" x2="849.15" y2="821.411"/>
+	</g>
 </g>
-<text transform="matrix(1 0 0 1 678.3701 857.0674)"><tspan x="0" y="0" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="11">G</tspan><tspan x="8.778" y="0" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="11">RUPO </tspan><tspan x="43.064" y="0" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="11">4</tspan></text>
-<g>
-	<defs>
-		<rect id="SVGID_11_" x="-940" y="-80" width="1920" height="1080"/>
-	</defs>
-	<clipPath id="SVGID_12_">
-		<use xlink:href="#SVGID_11_"  overflow="visible"/>
-	</clipPath>
-	
-		<line clip-path="url(#SVGID_12_)" fill="none" stroke="#249046" stroke-width="12" stroke-linecap="round" stroke-miterlimit="10" x1="682.09" y1="278.412" x2="682.09" y2="821.41"/>
-	
-		<line clip-path="url(#SVGID_12_)" fill="none" stroke="#E14044" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="722.09" y1="260.565" x2="722.09" y2="821.411"/>
-	
-		<line clip-path="url(#SVGID_12_)" fill="none" stroke="#249046" stroke-width="12" stroke-linecap="round" stroke-miterlimit="10" x1="809.15" y1="372.463" x2="809.15" y2="821.41"/>
-	
-		<line clip-path="url(#SVGID_12_)" fill="none" stroke="#E14044" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="849.15" y1="357.708" x2="849.15" y2="821.411"/>
-</g>
-<text transform="matrix(1 0 0 1 813.7598 857.0674)"><tspan x="0" y="0" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="11">G</tspan><tspan x="8.778" y="0" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="11">RUPO</tspan><tspan x="39.226" y="0" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="11"> </tspan></text>
-<text transform="matrix(1 0 0 1 809.1504 869.0684)"><tspan x="0" y="0" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="11">C</tspan><tspan x="7.271" y="0" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="11">O</tspan><tspan x="16.521" y="0" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="11">NTR</tspan><tspan x="37.949" y="0" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="11">O</tspan><tspan x="47.2" y="0" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="11">L</tspan></text>
+<text transform="matrix(1 0 0 1 805.8838 857.6543)" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="13.1859">G</text>
+<text transform="matrix(1 0 0 1 816.4072 857.6543)" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="13.1859">RUPO</text>
+<text transform="matrix(1 0 0 1 852.9053 857.6543)" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="13.1859"> </text>
+<text transform="matrix(1 0 0 1 800.3594 872.04)" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="13.1859">C</text>
+<text transform="matrix(1 0 0 1 809.0742 872.04)" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="13.1859">O</text>
+<text transform="matrix(1 0 0 1 820.1631 872.04)" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="13.1859">NTR</text>
+<text transform="matrix(1 0 0 1 845.8496 872.04)" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="13.1859">O</text>
+<text transform="matrix(1 0 0 1 856.9385 872.04)" fill="#DDE2E8" font-family="'FuturaStd-Heavy'" font-size="13.1859">L</text>
 </svg>
