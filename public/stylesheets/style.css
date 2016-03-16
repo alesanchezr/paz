@@ -265,7 +265,7 @@ background-color: #efeef5;
 
 	padding: 50px;
 	padding-top: 120px;
-	font-size: 15px;
+	font-size: 21px;
 	text-align: justify;
 	font-family: neuzeir;
 }
@@ -389,7 +389,7 @@ color: #9696AA;
 }
 .tag{
     padding-top: 3em;
-    font-size: 23px;
+    font-size: 15px;
 
 }
 
@@ -444,7 +444,7 @@ color: #9696AA;
 
 }
 .comment_a, .comment_b{
-	font-size: 25gipx;
+	font-size: 25px;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	color: #9696AA;
@@ -455,7 +455,7 @@ color: #9696AA;
 
 .experiencia{
 	font-family: neuzeir;
-	font-size: 25px;
+	font-size: 22px;
 	color: #564B7D;
 }
 .comment_a{
