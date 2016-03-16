@@ -218,7 +218,7 @@ strong{
 	padding-bottom: 20px;
 }
 .somos{
-font-size: 35px;
+font-size: 29px;
 font-family: neuzeir;
 text-align: left;
 padding: 140px;
@@ -405,7 +405,7 @@ color: #9696AA;
 }
 
 .numbers .si, .numbers .no{
-	background-color: #D5408C;
+	background-color: #2E2E39;
 	border-radius: 88px;
 	position: relative;
 	padding-top: 10px;
@@ -413,16 +413,16 @@ color: #9696AA;
 	padding-left: 10px;
 	margin-left: 8px;
 	margin-right: 9px;
-	color: #560F4C;
-	padding-right: 6px;
+	color: #595ED1;
+	padding-right: 11px;
 
 }
 
 .numbers .no{
-    background-color: #2E2E39;
+    background-color: #D5408C;
     padding-left: 9px;
-    padding-right: 6px;
-    color: #595ED1;
+    padding-right: 1px;
+    color: #560F4C;
 
 }
 .a3 .title{
@@ -440,6 +440,7 @@ color: #9696AA;
 	padding-right: 70px;
 	padding-left: 70px;
 	color: #5A5A77;
+	text-align: left;
 
 }
 .comment_a, .comment_b{
@@ -454,7 +455,7 @@ color: #9696AA;
 
 .experiencia{
 	font-family: neuzeir;
-	font-size: 30px;
+	font-size: 25px;
 	color: #564B7D;
 }
 .comment_a{
@@ -593,7 +594,15 @@ GRAFICAS #######################################################################
 GRAFICAS ########################################################################################### */
 
 
+.logros{
+    color: #6B6B8E;
 
+}
+
+.logros .title{
+    color: #EEE9F1;
+	
+}
 
 /*ICONS  ----------------------------------------------------------------------------------############################- */
 
@@ -624,7 +633,7 @@ GRAFICAS #######################################################################
 
 @media(max-width: 1355px){
 	.navbar-right{
-		font-size: 8px;
+		font-size: 11px;
 	}
 
 	.navbar-nav>li>a{
@@ -640,9 +649,9 @@ GRAFICAS #######################################################################
 }
 
 
-@media(max-width: 1091px){
+@media(max-width: 1248px){
 	.navbar-right{
-		font-size: 8px;
+		font-size: 10px;
 	}
 
 	.navbar-nav>li>a{
@@ -650,6 +659,17 @@ GRAFICAS #######################################################################
 		padding-right: 10px;
 	}
 
+
+
+}
+
+
+@media(max-width: 1040px){
+	.navbar-right{
+		font-size: 9px;
+	}
+
+	
 
 
 }

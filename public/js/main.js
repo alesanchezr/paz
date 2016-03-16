@@ -47,7 +47,7 @@ $(document).ready(function(){
 things={
 	dato1:["Ha aumentado la participación","4%","94%","#g3"],
 	dato2:["Ha mejorado la convivencia","9%","91%","#g1"],
-	dato3:["Se ha desarrollado la resolución de conflictos","9%","91%","#g1"],
+	dato3:["Han adoptado herramientas para la resolución de conflictos","9%","91%","#g1"],
 	dato4:["Ha disminuido la violencia","28%","72%","#g4"]
 };
 
