@@ -1,4 +1,35 @@
 
+if (window.location.pathname == "/confiamos") {
+
+    $("#confiamos").addClass("active_menu");
+
+}
+
+
+
+if (window.location.pathname == "/experiencia") {
+
+    $("#experiencia").addClass("active_menu");
+
+}
+
+
+if (window.location.pathname == "/somos") {
+
+    $("#somos").addClass("active_menu");
+
+}
+
+
+if (window.location.pathname == "/objetivos") {
+
+    $("#objetivos").addClass("active_menu");
+
+}
+
+
+
+
 
   	w_window = $( window ).height();
 
@@ -53,14 +84,17 @@ things={
 
 flag=0;
 
-
+old_scroll=0;
 
 $(window).scroll(function(){
-	old_scroll=$("body").scrollTop();
-	
+	old_scroll=$("body").scrollTop();	
 });
 
-$(document).ready(function() {  
+
+if (window.location.pathname == "/experiencia") {
+
+
+ 
 
     function graficas(){
     		
@@ -128,4 +162,7 @@ $(document).ready(function() {
 
     setInterval(graficas, 3000);
     
-});
+}
+
+
+
