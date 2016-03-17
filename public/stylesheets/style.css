@@ -34,6 +34,7 @@ h1,h2,h3,h4{
 
 strong{
 	font-family: neuzeir !important;
+	font-size: larger;
 }
 
 /*BACKGROUNDS*/
@@ -230,7 +231,7 @@ strong{
 	padding-bottom: 20px;
 }
 .somos{
-font-size: 164%;
+font-size: 18px;
 font-family: avenir;
 text-align: left;
 padding: 140px;
@@ -282,7 +283,7 @@ background-color: #efeef5;
 }
 
 .e-1 p{
-	color: #564B7D;
+	
 }
 
 
@@ -392,7 +393,10 @@ background-color: #efeef5;
 	color: #69697F;
 	letter-spacing: 1px;
 	font-size: 33px;
-	background-color: #3C3C47;
+	background-color: #2F2F37;
+}
+.fix_bottom img{
+	bottom: 96px !important;
 }
 
 .bright{
@@ -445,7 +449,7 @@ color: #9696AA;
 }
 
 .a3{
-	font-size: 21px;
+	font-size: 18px;
 	padding-right: 70px;
 	padding-left: 70px;
 	color: #5A5A77;
