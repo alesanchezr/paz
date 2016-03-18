@@ -461,8 +461,8 @@ color: #9696AA;
 }
 .comment_a, .comment_b{
 	font-size: 25px;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 	color: #9696AA;
 	text-align: center;
 	font-family: avenir;
@@ -700,6 +700,12 @@ GRAFICAS #######################################################################
 
 
 @media (max-width: 991px){
+
+	.fix_bottom img {
+		bottom: 0px !important;
+	}
+
+
 	#pie_chart{
 		margin-left: 21%;
 	}

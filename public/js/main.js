@@ -52,7 +52,7 @@ $(document).ready(function(){
     		$("#message").addClass("animated fadeInUp");
 
 
-	        to="rulotico@gmail.com";
+	        to="contacto@proyectopaz.org";
 	        name=$("#name").val();
 	        mail=$("#mail").val();
 	        company=$("#company").val();
@@ -164,5 +164,14 @@ if (window.location.pathname == "/experiencia") {
     
 }
 
+
+
+// center graphic
+
+position_pie=$(".a2").width()- 340;
+
+position_pie= position_pie/2;
+
+$("#pie_chart").css("margin-left",position_pie);
 
 
