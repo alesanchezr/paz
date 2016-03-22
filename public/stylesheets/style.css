@@ -164,8 +164,8 @@ strong{
 .twitter{
 	background-color: #29A7DE
 }
-.face{
-	background-color: #36609D;
+.you{
+	background-color: #EE3537;
 }
 .contact{
 	background-color: #EEEEF0;
@@ -175,8 +175,8 @@ strong{
 	background-color: #66D1FF ;
 }
 
-.face :hover{
-	background-color: #2867C3 ;
+.you :hover{
+	background-color: #A52526 ;
 }
 
 .contact :hover{
@@ -783,12 +783,12 @@ GRAFICAS #######################################################################
 	background-color: initial ;
 }
 
-.face :hover{
+.you :hover{
 	background-color: initial ;
 }
 
 
-.contact,.twitter, .face {
+.contact,.twitter, .you {
     width: 33.33333333% !important;
 }
 
@@ -903,12 +903,12 @@ padding-top: 138px;}
 	display: initial !important;
 	}
 
-	.face, .twitter{
+	.you, .twitter{
     padding: 0px;
     margin: 0px;
        
 	}
-	.social_mobile .twitter , .social_mobile .face {
+	.social_mobile .twitter , .social_mobile .you {
 		width: 120px !important;
 	}
 	
@@ -964,7 +964,7 @@ padding-top: 138px;}
     height: 120px;
 }
 
-.face, .twitter {
+.you, .twitter {
  
     height: 120px;
         padding-top: 34px;
@@ -1044,7 +1044,7 @@ padding-top: 138px;}
     height: 32px;
 }
 
-.face, .twitter{
+.you, .twitter{
     padding: 0px;
     margin: 0px;
     padding-right: 29px;
