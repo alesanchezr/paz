@@ -637,6 +637,22 @@ GRAFICAS #######################################################################
 }
 
 
+
+/*VIDEO*/
+
+.video{
+	height: 100vh;
+	background-color: black;
+	position: relative;
+	z-index: 30000;
+}
+
+.video iframe{
+	height: 100%;
+	width: 98vw;
+}
+
+
 /* MEDIA */
 
 .twist{
