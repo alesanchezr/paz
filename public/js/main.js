@@ -52,7 +52,7 @@ $(document).ready(function(){
     		$("#message").addClass("animated fadeInUp");
 
 
-	        to="contacto@proyectopaz.org";
+	        to="anapaula@proyectopaz.net";
 	        name=$("#name").val();
 	        mail=$("#mail").val();
 	        company=$("#company").val();
