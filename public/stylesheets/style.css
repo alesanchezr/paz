@@ -37,6 +37,32 @@ strong{
 	font-size: larger;
 }
 
+/*BANNER*/
+.banner{
+	position: fixed;
+	bottom: 0px;
+	z-index: 100000000;
+	width: 50%;
+	margin-left:25%; 
+	height: 150px;
+	background-color: #F5F5F5;
+	
+}
+
+.banner .col-md-8{
+	padding: 20px;
+}
+
+.logo_ibero{
+background-image: url(../images/logo.jpg);
+background-size: cover;
+ background-position: center;
+ position: relative;
+ height: 100%;
+}
+
+
+
 /*BACKGROUNDS*/
 
 .somos_img{
