@@ -174,4 +174,14 @@ position_pie= position_pie/2;
 
 $("#pie_chart").css("margin-left",position_pie);
 
+// BANNER
 
+
+$(".banner").click(function(){
+    window.open("http://www.diplomados.ibero.mx");
+});
+
+
+$(".circle").click(function(){
+    $(".banner").remove();
+});
