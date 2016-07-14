@@ -178,7 +178,7 @@ $("#pie_chart").css("margin-left",position_pie);
 
 
 $(".banner").click(function(){
-    window.open("http://www.diplomados.ibero.mx");
+    window.open("http://www.diplomados.ibero.mx/index.cfm?pag=registro.cfm&area=4&dec=12&ver=3&prog=0&tipo=4&anio=2016&tip=1&nombre=Educación%20para%20la%20Paz%20y%20Derechos%20Humanos&sede=2&colaborador=0&disciplina=0&programa=Ext#.V4bdKGPWVE4");
 });
 
 
